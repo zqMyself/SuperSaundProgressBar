@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/activity_gif_giv"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/loading" />
+
+
+    <com.xiangjiale.saunprogressbar.widget.SaundProgressBar
+        android:id="@+id/pb_downloading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        style="@style/Widget.ProgressBar.RegularProgressBar"
+        android:layout_marginBottom="32dp"
+        app:offset="10dp"
+        app:textSize="10sp"
+        />
+
+    <com.xiangjiale.saunprogressbar.widget.SaundProgressBar
+        android:id="@+id/pb_downloading2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        style="@style/Widget.ProgressBar.RegularProgressBar"
+        android:layout_marginBottom="32dp"
+        android:layout_marginTop="50dp"
+        app:offset="10dp"
+        app:textSize="10sp"
+        />
+
+</LinearLayout>
